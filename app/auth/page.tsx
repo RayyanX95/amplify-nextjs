@@ -1,7 +1,7 @@
 "use client";
 
 import { Amplify } from "aws-amplify";
-import awsExports from "../aws-exports";
+import awsExports from "../../aws-exports";
 import { Authenticator } from "@aws-amplify/ui-react";
 
 import "@aws-amplify/ui-react/styles.css";
@@ -19,7 +19,7 @@ export default function Home() {
         console.log("user", user);
         return (
           <main>
-            <h1>Hello, {user?.username}</h1>
+            <h1>Hello, {user?.username}!</h1>
             <button onClick={signOut}>Sign out</button>
           </main>
         );
