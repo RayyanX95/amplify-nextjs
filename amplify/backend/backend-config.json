@@ -1,38 +1,45 @@
 {
   "auth": {
-    "sociallogin003": {
+    "sociallogindeviruser": {
       "customAuth": false,
       "dependsOn": [],
-      "frontendAuthConfig": {
-        "mfaConfiguration": "OFF",
-        "mfaTypes": [
-          "SMS"
-        ],
-        "passwordProtectionSettings": {
-          "passwordPolicyCharacters": [
-            "REQUIRES_LOWERCASE",
-            "REQUIRES_NUMBERS",
-            "REQUIRES_SYMBOLS",
-            "REQUIRES_UPPERCASE"
-          ],
-          "passwordPolicyMinLength": 8
-        },
-        "signupAttributes": [
-          "EMAIL",
-          "FAMILY_NAME"
-        ],
-        "socialProviders": [
-          "GOOGLE"
-        ],
-        "usernameAttributes": [
-          "EMAIL"
-        ],
-        "verificationMechanisms": [
-          "EMAIL"
-        ]
-      },
       "providerPlugin": "awscloudformation",
-      "service": "Cognito"
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_sociallogindeviruser_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "sociallogindeviruser"
+        }
+      ]
+    },
+    "AMPLIFY_auth_sociallogindeviruser_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "sociallogindeviruser"
+        }
+      ]
+    },
+    "AMPLIFY_auth_sociallogindeviruser_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "sociallogindeviruser"
+        }
+      ]
+    },
+    "AMPLIFY_auth_sociallogindeviruser_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "sociallogindeviruser"
+        }
+      ]
     }
   }
 }

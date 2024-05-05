@@ -1,19 +1,24 @@
 {
   "staging": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-sociallogin003-staging-c042d-authRole",
-      "UnauthRoleArn": "arn:aws:iam::953225562096:role/amplify-sociallogin003-staging-c042d-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::953225562096:role/amplify-sociallogin003-staging-c042d-authRole",
-      "Region": "eu-central-1",
-      "DeploymentBucketName": "amplify-sociallogin003-staging-c042d-deployment",
-      "UnauthRoleName": "amplify-sociallogin003-staging-c042d-unauthRole",
-      "StackName": "amplify-sociallogin003-staging-c042d",
-      "StackId": "arn:aws:cloudformation:eu-central-1:953225562096:stack/amplify-sociallogin003-staging-c042d/e72537c0-070d-11ef-9eda-0a7db3bb147d",
-      "AmplifyAppId": "d3rr3mhtu1xl4w"
+      "AuthRoleName": "amplify-sociallogindeviruser-staging-77e9a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::953225562096:role/amplify-sociallogindeviruser-staging-77e9a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::953225562096:role/amplify-sociallogindeviruser-staging-77e9a-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-sociallogindeviruser-staging-77e9a-deployment",
+      "UnauthRoleName": "amplify-sociallogindeviruser-staging-77e9a-unauthRole",
+      "StackName": "amplify-sociallogindeviruser-staging-77e9a",
+      "StackId": "arn:aws:cloudformation:eu-west-1:953225562096:stack/amplify-sociallogindeviruser-staging-77e9a/12421cf0-0a0d-11ef-b98a-02cb298b27b5",
+      "AmplifyAppId": "d6duppmw50jq0"
     },
     "categories": {
       "auth": {
-        "sociallogin003": {}
+        "sociallogindeviruser": {
+          "nativeClientId": "3otvsjha1jnaqk52c7hr7t2hvp",
+          "userPoolId": "eu-west-1_P7sw18uKW",
+          "userPoolName": "dev-user-pool",
+          "webClientId": "3otvsjha1jnaqk52c7hr7t2hvp"
+        }
       }
     }
   }
